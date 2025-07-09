@@ -114,3 +114,55 @@ export const menu = [
     ],
   },
 ];
+
+export const topDealsUsers = [
+  {
+    id: 1,
+    img: "https://picsum.photos/300/300",
+    username: "Jane Doe",
+    email: "jane@doe.com",
+    amount: "3.668",
+  },
+  {
+    id: 2,
+    img: "https://picsum.photos/300/300",
+    username: "Nelly Bronx",
+    email: "nelly@company.com",
+    amount: "3.256",
+  },
+  {
+    id: 3,
+    img: "https://picsum.photos/300/300",
+    username: "Brent Reeves",
+    email: "brent@company.com",
+    amount: "2.998",
+  },
+  {
+    id: 4,
+    img: "https://picsum.photos/300/300",
+    username: "Adeline Watson",
+    email: "watson@company.com",
+    amount: "2.566",
+  },
+  {
+    id: 5,
+    img: "https://picsum.photos/300/300",
+    username: "Juan Harrington",
+    email: "juan@company.com",
+    amount: "2.432",
+  },
+  {
+    id: 6,
+    img: "https://picsum.photos/300/300",
+    username: "Lora Jackson",
+    email: "jackson@company.com",
+    amount: "1.932",
+  },
+  {
+    id: 7,
+    img: "https://picsum.photos/300/300",
+    username: "Tommy Smith",
+    email: "tommy@company.com",
+    amount: "1.560",
+  },
+];
