@@ -20,6 +20,7 @@ function Navbar() {
             src="https://images.pexels.com/photos/7046685/pexels-photo-7046685.jpeg"
             alt=""
           />
+          <span>Jane</span>
         </div>
         <img src="/settings.svg" alt="" />
       </div>
