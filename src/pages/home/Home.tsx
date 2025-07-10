@@ -11,6 +11,8 @@ import {
 } from "../../data";
 import BarChartBox from "../../components/bar-chart-box/BarChartBox";
 import PieChartBox from "../../components/pie-chart-box/PieChartBox";
+import AreaChartBox from "../../components/big-chart/AreaChart";
+
 function Home() {
   return (
     <div className="home">
@@ -32,7 +34,9 @@ function Home() {
       <div className="box box-6">
         <ChartBox {...chartBoxRevenue} />
       </div>
-      <div className="box box-7"></div>
+      <div className="box box-7">
+        <AreaChartBox />
+      </div>
       <div className="box box-8">
         <BarChartBox {...barChartBoxVisit} />
       </div>
