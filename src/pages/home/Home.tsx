@@ -6,7 +6,10 @@ import {
   chartBoxProduct,
   chartBoxRevenue,
   chartBoxConversion,
+  barChartBoxVisit,
+  barChartBoxRevenue,
 } from "../../data";
+import BarChartBox from "../../components/bar-chart-box/BarChartBox";
 function Home() {
   return (
     <div className="home">
@@ -27,8 +30,12 @@ function Home() {
         <ChartBox {...chartBoxRevenue} />
       </div>
       <div className="box box-7"></div>
-      <div className="box box-8"></div>
-      <div className="box box-9"></div>
+      <div className="box box-8">
+        <BarChartBox {...barChartBoxVisit} />
+      </div>
+      <div className="box box-9">
+        <BarChartBox {...barChartBoxRevenue} />
+      </div>
     </div>
   );
 }

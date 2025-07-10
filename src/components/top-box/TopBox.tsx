@@ -1,12 +1,12 @@
 import "./top-box.scss";
-import { topDealsUsers } from "../../data";
+import { topDealUsers } from "../../data";
 
 function TopBox() {
   return (
     <div className="top-box">
       <h3>Top Deals</h3>
       <div className="list">
-        {topDealsUsers.map((user) => (
+        {topDealUsers.map((user) => (
           <div className="list-item" key={user.id}>
             <div className="user">
               <img src={user.img} alt="" />
