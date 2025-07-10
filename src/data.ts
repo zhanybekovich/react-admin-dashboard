@@ -717,3 +717,10 @@ export const singleProduct = {
     },
   ],
 };
+
+export const pieChartData = [
+  { name: "Mobile", value: 400, color: "#0088FE" },
+  { name: "Desktop", value: 300, color: "#00c49f" },
+  { name: "Laptop", value: 300, color: "#ffbb28" },
+  { name: "Tablet", value: 200, color: "#ff8042" },
+];
